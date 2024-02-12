@@ -48,3 +48,22 @@
   border-radius: 5px;
   margin: 0;
 }
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.color-display {
+  border: 1px solid black;
+  padding: 10px;
+}
+.color-picker-container p,
+.color-picker-container label,
+.color-picker-container h1 {
+  background-color: black;
+  color: white;
+}
+.color-display {
+  transition: 0.5s ease;
+}
