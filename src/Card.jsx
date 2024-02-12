@@ -1,10 +1,7 @@
 import { useState } from "react";
 import profilePic from "./assets/pp.jpg";
 
-function Card(props) {
-  const [sList, setSList] = useState(props.sList);
-  console.log(sList);
-
+function Card() {
   return (
     <>
       <div className="card">
