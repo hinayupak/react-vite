@@ -67,3 +67,6 @@
 .color-display {
   transition: 0.5s ease;
 }
+.to-do-button {
+  margin: 5px;
+}

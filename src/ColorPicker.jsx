@@ -13,10 +13,10 @@ function ColorPicker() {
         <h1>Color Picker</h1>
         <div className="color-display" style={{ backgroundColor: color }}>
           <p>Selected color: {color}</p>
-          <label>Select a Color:</label>
-          <br />
-          <input type="color" value={color} onChange={handleColorChange} />
         </div>
+        <br />
+        <label>Select a Color:</label>
+        <input type="color" value={color} onChange={handleColorChange} />
       </div>
     </>
   );

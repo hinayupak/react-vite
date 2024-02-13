@@ -1,4 +1,7 @@
+import ArrayObjectInState from "./ArrayObjectsInState";
+import ArrayUpdate from "./ArrayUpdate";
 import Button from "./Button/Button";
+import Car from "./Car";
 import Card from "./Card";
 import ColorPicker from "./ColorPicker";
 import Counter from "./Counter";
@@ -7,6 +10,7 @@ import MyComponent from "./MyComponent";
 import OnChangeSample from "./OnChangeSample";
 import ProfilePicture from "./ProfilePicture";
 import Student from "./Student";
+import ToDoList from "./ToDoList";
 import UserGreeting from "./UserGreeting";
 
 function App() {
@@ -27,7 +31,11 @@ function App() {
 
   return (
     <>
-      <ColorPicker />
+      <ToDoList />
+      {/* <ArrayObjectInState /> */}
+      {/* <ArrayUpdate /> */}
+      {/* <Car /> */}
+      {/* <ColorPicker /> */}
       {/* <OnChangeSample /> */}
       {/* <UserGreeting isLoggedIn={true} username="Joshua" /> */}
       {/* {fruits.length > 0 && <List items={fruits} category="Fruits" />} */}
