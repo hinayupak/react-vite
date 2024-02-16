@@ -12,6 +12,7 @@ import OnChangeSample from "./OnChangeSample";
 import ProfilePicture from "./ProfilePicture";
 import Student from "./Student";
 import ToDoList from "./ToDoList";
+import UseContext1 from "./UseContext/UseContext1";
 import UseEpek from "./UseEpek";
 import UserGreeting from "./UserGreeting";
 
@@ -34,6 +35,7 @@ function App() {
   return (
     <>
       <DigitalClock />
+      <UseContext1 />
       {/* <UseEpek /> */}
       {/* <ToDoList /> */}
       {/* <ArrayObjectInState /> */}
