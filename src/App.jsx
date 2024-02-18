@@ -15,6 +15,7 @@ import ToDoList from "./ToDoList";
 import UseContext1 from "./UseContext/UseContext1";
 import UseEpek from "./UseEpek";
 import UserGreeting from "./UserGreeting";
+import YusRef from "./YusRef";
 
 function App() {
   const fruits = [
@@ -35,7 +36,8 @@ function App() {
   return (
     <>
       <DigitalClock />
-      <UseContext1 />
+      <YusRef />
+      {/* <UseContext1 /> */}
       {/* <UseEpek /> */}
       {/* <ToDoList /> */}
       {/* <ArrayObjectInState /> */}
