@@ -10,6 +10,7 @@ import List from "./List";
 import MyComponent from "./MyComponent";
 import OnChangeSample from "./OnChangeSample";
 import ProfilePicture from "./ProfilePicture";
+import Stopwatch from "./Stopwatch";
 import Student from "./Student";
 import ToDoList from "./ToDoList";
 import UseContext1 from "./UseContext/UseContext1";
@@ -36,7 +37,8 @@ function App() {
   return (
     <>
       <DigitalClock />
-      <YusRef />
+      <Stopwatch />
+      {/* <YusRef /> */}
       {/* <UseContext1 /> */}
       {/* <UseEpek /> */}
       {/* <ToDoList /> */}
