@@ -6,6 +6,7 @@ import Card from "./Card";
 import ColorPicker from "./ColorPicker";
 import Counter from "./Counter";
 import DigitalClock from "./DigitalClock";
+import Fetch from "./Fetch";
 import List from "./List";
 import MyComponent from "./MyComponent";
 import OnChangeSample from "./OnChangeSample";
@@ -37,7 +38,8 @@ function App() {
   return (
     <>
       <DigitalClock />
-      <Stopwatch />
+      <Fetch />
+      {/* <Stopwatch /> */}
       {/* <YusRef /> */}
       {/* <UseContext1 /> */}
       {/* <UseEpek /> */}
