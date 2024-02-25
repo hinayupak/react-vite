@@ -7,6 +7,7 @@ import ColorPicker from "./ColorPicker";
 import Counter from "./Counter";
 import DigitalClock from "./DigitalClock";
 import Fetch from "./Fetch";
+import FormBasic from "./FormBasic";
 import List from "./List";
 import MyComponent from "./MyComponent";
 import OnChangeSample from "./OnChangeSample";
@@ -37,30 +38,33 @@ function App() {
 
   return (
     <>
-      <DigitalClock />
-      <Fetch />
-      {/* <Stopwatch /> */}
-      {/* <YusRef /> */}
-      {/* <UseContext1 /> */}
-      {/* <UseEpek /> */}
-      {/* <ToDoList /> */}
-      {/* <ArrayObjectInState /> */}
-      {/* <ArrayUpdate /> */}
-      {/* <Car /> */}
-      {/* <ColorPicker /> */}
-      {/* <OnChangeSample /> */}
-      {/* <UserGreeting isLoggedIn={true} username="Joshua" /> */}
-      {/* {fruits.length > 0 && <List items={fruits} category="Fruits" />} */}
-      {/* <ProfilePicture /> */}
-      {/* <Counter /> */}
-      {/* <MyComponent /> */}
-      {/* {vegetables.length > 0 && (
+      <div className="flex min-h-screen flex-col items-center justify-between p-24">
+        <DigitalClock />
+        <FormBasic />
+        {/* <Fetch /> */}
+        {/* <Stopwatch /> */}
+        {/* <YusRef /> */}
+        {/* <UseContext1 /> */}
+        {/* <UseEpek /> */}
+        {/* <ToDoList /> */}
+        {/* <ArrayObjectInState /> */}
+        {/* <ArrayUpdate /> */}
+        {/* <Car /> */}
+        {/* <ColorPicker /> */}
+        {/* <OnChangeSample /> */}
+        {/* <UserGreeting isLoggedIn={true} username="Joshua" /> */}
+        {/* {fruits.length > 0 && <List items={fruits} category="Fruits" />} */}
+        {/* <ProfilePicture /> */}
+        {/* <Counter /> */}
+        {/* <MyComponent /> */}
+        {/* {vegetables.length > 0 && (
         <List items={vegetables} category="Vegetables" />
       )} */}
-      {/* <Student name="Spongebob" age={30} isStudent={true} /> */}
-      {/* <Student /> */}
-      {/* <Card /> */}
-      {/* <Button /> */}
+        {/* <Student name="Spongebob" age={30} isStudent={true} /> */}
+        {/* <Student /> */}
+        {/* <Card /> */}
+        {/* <Button /> */}
+      </div>
     </>
   );
 }
