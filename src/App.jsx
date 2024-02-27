@@ -8,6 +8,7 @@ import Counter from "./Counter";
 import DigitalClock from "./DigitalClock";
 import Fetch from "./Fetch";
 import FormBasic from "./FormBasic";
+import FormWithReactHookForm from "./FormWithReactHookForm";
 import List from "./List";
 import MyComponent from "./MyComponent";
 import OnChangeSample from "./OnChangeSample";
@@ -38,9 +39,10 @@ function App() {
 
   return (
     <>
-      <div className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div className="flex flex-col items-center justify-between bg-gray-400">
         <DigitalClock />
-        <FormBasic />
+        {/* <FormBasic /> */}
+        <FormWithReactHookForm />
         {/* <Fetch /> */}
         {/* <Stopwatch /> */}
         {/* <YusRef /> */}
